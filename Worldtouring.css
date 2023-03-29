@@ -91,24 +91,20 @@
    padding-bottom: 3px;
 }
 
- /*location part*/
  .location{
-   background-image: url(https://world-touring.vercel.app/images/new-york-page.png),linear-gradient(rgb(0,0,0), transparent);
-   height: 100vh;
-   background-position: center;
-   background-size: cover; 
-   position: relative; 
-   color: rgb(18, 17, 16);
-   display: flex;
-   align-items: center;
-  
+  background-image: url(https://world-touring.vercel.app/images/new-york-page.png), linear-gradient(black,transparent);
+  background-position: center;
+  background-size: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
  }
 
  .location-text{
-   display: block;
-   padding-left: 80px;
+  display: block;
+  padding-left: 50px;
  }
 
  .location-text h1{
-   text-decoration: underline;
+  text-decoration: underline;
  }

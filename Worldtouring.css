@@ -163,11 +163,12 @@
   align-items: center;
 }  
 
-.card h4 {
-  padding: 2rem 1rem;
-}
+ .card h4 {
+  font-size: 30px;
+  margin: 1px; 
+}  
 .card p {
-  padding-bottom: 2rem;
+   padding-bottom: 1rem; 
   font-size: 1.3rem;
   text-align: center;
 }
@@ -177,7 +178,7 @@
 .contact{
   min-height:100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.781), transparent),
-    url('./images/contact.jpg');
+    url('https://world-touring.vercel.app/images/contact.jpg');
   background-size:cover;
   background-position:center;
   display:flex;
